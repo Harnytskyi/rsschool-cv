@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/png" rel="icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <ul class="social_ul">
+                <li class="social_li">
+                    <a class="social_href fab fa-github" href="https://github.com/harnytskyi/"></a>
+                </li>
+                <li class="social_li">
+                    <a class="social_href fab fa-telegram-plane" href="https://t.me/granit_ua"></a>
+                </li>
+                <li class="social_li">
+                    <a class="social_href fab fa-linkedin" href="https://www.linkedin.com/in/andrii-harnytskyi-97b93a1a1"></a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section class="profile">
+                <img src="https://picua.org/images/2021/03/05/daea9ba2820796ad49b6a877d5c883f5.jpg" class="profile_img" alt="Andrii's photo">
+                <div class="profile_info">
+                    <p class="profile_position">Trainee Front-End Developer</p>
+                    <h1 class="profile_name">Andrii Harnytskyi</h1>
+                    <p class="profile_text">An ambitious Front-End Developer. <br> I am seeking an entry-level FrontEnd Developer position in an international company with professional and career growth perspective.</p>
+                    <ul class="profile_contacts">
+                        <li>
+                            <a href="mailto:andrij.garnytskiy@gmail.com" class="profile_href">
+                                <i class="profile_icon fa fa-envelope"></i>
+                                andrij.garnytskiy@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="profile_icon fas fa-map-marker-alt"></i>
+                                Kyiv, Ukraine
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="info">
+                <div data-info="skills">
+                    <h2 class="info_title">Skills</h2>
+                    <ul class="info_ul">
+                        <li><i class="info_icon fas fa-code"></i>HTML</li>
+                        <li><i class="info_icon fas fa-code"></i>CSS</li>
+                        <li><i class="info_icon fas fa-code"></i>JavaScript</li>
+                        <li><i class="info_icon fas fa-code"></i>ES6</li>
+                        <li><i class="info_icon fas fa-code"></i>Responsive Web Design</li>
+                        <li><i class="info_icon fas fa-code"></i>Adobe Photoshop</li>
+                        <li><i class="info_icon fas fa-code"></i>VS Code</li>
+                        <li><i class="info_icon fas fa-code"></i>GIT</li>
+                    </ul>
+                </div>
+                
+                <div data-info="courses">
+                    <h2 class="info_title">Courses</h2>
+                    <ul class="info_ul">
+                        <li>
+                            <span class="info_date">
+                                <time datetime="2020">
+                                    12.2020 - Present
+                                </time>
+                            </span>
+                            <p>Kottans Front-End</p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-info="education">
+                    <h2 class="info_title">Education</h2>
+                    <span class="info_date">
+                        <time datetime="2020">
+                            12.2020 - Present
+                        </time>
+                    </span>
+                    <span class="info_suptext">
+                        Master degree
+                    </span>
+                    <p class="info_text">National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</p>
+                    <p class="info_subtext">Faculty of Electronics <br> Electronic Components and Systems</p>
+                </div>
+                <div data-info="language">
+                    <h2 class="info_title">Language</h2>
+                    English — Upper Intermediate
+                </div>
+                <div data-info="experience">
+                    <h2 class="info_title">Experience</h2>
+                    <ul class="info_ul">
+                        <li>
+                            <span class="info_date">
+                                <time datetime="2018">
+                                    05.2018 - 08.2018
+                                </time>
+                            </span>
+                            <p class="info_text"><strong>C# Internship, Softheme</strong></p>
+                            <p class="info_text">
+                                I worked in a team to create a vacation booking site. The site was run
+                                on ASP.NET MVC Framework. My responsibilities included page layout,
+                                validating forms on the Front-End. During working on the project, I had
+                                experience using MS SQL and Azure
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="example-of-code">
+                <h2 class="info_title">Example of code</h2>
+                <div class="code">
+                    <code>function nextPerfectSquare(a){
+    if(a&lt;0)
+        return 0;
+    else if (a == 0)
+        return 1;
+    else{
+        while (true){
+        a++;
+        var d =  Math.sqrt(a);
+        e = Math.ceil(d); 
+        if(a&lt;e*e)
+            return e*e;
+        }
+    }
+}</code>
+                </div>
+            </section>
+            <section class="projects">
+                <h2 class="info_title">Projects</h2>
+                <div class="projects_wrap">
+                    <a href="https://harnytskyi.github.io/kottans-frontend/html-movie-seat-booking/" class="project_item">
+                        <img src="img/movie_seat_booking_1000.jpg" 
+                            srcset="img/movie_seat_booking_400.jpg 400w, 
+                                    img/movie_seat_booking_700.jpg 700w,
+                                    img/movie_seat_booking_1000.jpg 1000w"
+                            sizes="(max-width: 428px) 400px,
+                                   (max-width: 745px) 700px,
+                                   1000px"
+                            alt="Movie Seat Booking Site Screenshot"
+                            class="project_img"
+                        >
+                        <p class="project_name">Movie Seat Booking</p>
+                        <p class="project_link"> Go to website</p>
+                    </a>
+                    <a href="https://harnytskyi.github.io/kottans-frontend/html-movie-seat-booking/" class="project_mobile_link"> Go to website</a>
+                    <a href="https://harnytskyi.github.io/kottans-frontend/task_friends_app/" class="project_item">
+                        <img src="img/friends_app_1000.jpg" 
+                            srcset="img/friends_app_400.jpg 400w, 
+                                    img/friends_app_700.jpg 700w"
+                            sizes="(max-width: 428px) 400px,
+                                   700px"
+                            alt="Friends App Site Screenshot"
+                            class="project_img"
+                        >
+                        <p class="project_name">Friends App</p>
+                        <p class="project_link"> Go to website</p>
+                    </a>
+                    <a href="https://harnytskyi.github.io/kottans-frontend/task_friends_app/" class="project_mobile_link"> Go to website</a>
+                    <a href="https://harnytskyi.github.io/kottans-frontend/task_memory_pair_game" class="project_item">
+                        <img src="img/memory_pair_game_1000.jpg" 
+                            srcset="img/memory_pair_game_400.jpg 400w, 
+                                    img/memory_pair_game_700.jpg 700w"
+                            sizes="(max-width: 428px) 400px,
+                                   700px"
+                            alt="Friends App Site Screenshot"
+                            class="project_img"
+                        >
+                        <p class="project_name">Memory Pair Game</p>
+                        <p class="project_link"> Go to website</p>
+                    </a>
+                    <a href="https://harnytskyi.github.io/kottans-frontend/task_memory_pair_game" class="project_mobile_link"> Go to website</a>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="https://rs.school/js/" class="footer_img_href"></a>
+            <a class="footer_href" href="https://github.com/Harnytskyi"> <i class="footer_icon fab fa-github"></i>Harnytskyi</a>
+            <time class="footer_time" datetime="2021">2021</time>
+        </footer>
+    </div>
+</body>
+
+</html>
